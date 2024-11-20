@@ -1,4 +1,4 @@
-# The Algorithms - Java
+# Algorithm Implementations in Java
 
 This repository will be used for The Course Project in EECS 4313 - Software Engineering Testing, Fall 2024 Offering at York University. 
 
