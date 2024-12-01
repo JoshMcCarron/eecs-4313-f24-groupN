@@ -1,3 +1,12 @@
+/* A fault was found in this file: 
+ * Method:  toString 
+ * Input:   an empty stack
+ * Expected output:   ""
+ * Actual output: IndexOutOfBoundsException error
+ * 
+ */
+
+
 package com.thealgorithms.datastructures.stacks;
 
 import java.util.NoSuchElementException;
