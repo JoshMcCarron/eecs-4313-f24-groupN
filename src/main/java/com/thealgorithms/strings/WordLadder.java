@@ -1,3 +1,20 @@
+/* A fault was found in this file: 
+ * Method:  ladderLength
+ * Input:   "" as beginWord, "" as endWord, "" found in wordList
+ * Expected output:   2 or an exception because there is no check for handling empty strings, so this method should either 
+ * throw an Illegal exception when empty strings are used, or return 2 as technically beginWord can use "" in the wordList to
+ * transform into the endWord "".
+ * Actual output: 0
+ * 
+ * Method: ladderLength
+ * Input:beginWord ="a", endWord = "a", wordList.contains("a")
+ * Expected: 2
+ * Actual Output: 0
+ *
+ * 
+ */
+
+
 package com.thealgorithms.strings;
 
 import java.util.Collection;
