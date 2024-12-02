@@ -1,4 +1,4 @@
-/* A fault was found in this file: 
+/* Bugs were found in this file: 
  * Method:  ladderLength
  * Input:   "" as beginWord, "" as endWord, "" found in wordList
  * Expected output:   2 or an exception because there is no check for handling empty strings, so this method should either 

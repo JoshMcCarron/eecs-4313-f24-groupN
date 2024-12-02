@@ -1,3 +1,13 @@
+/* A bug was found in this file: 
+ * Method:  findFirst
+ * Input:   "HeLLo" first parameter, "he said hello" second parameter
+ * Expected output:   8
+ * Actual output: -1
+ * 
+
+ */
+
+
 package com.thealgorithms.strings;
 
 import java.util.HashMap;

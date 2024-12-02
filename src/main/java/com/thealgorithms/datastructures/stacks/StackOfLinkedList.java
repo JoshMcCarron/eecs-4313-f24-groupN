@@ -1,4 +1,4 @@
-/* A fault was found in this file: 
+/* A bug was found in this file: 
  * Method:  toString 
  * Input:   an empty stack
  * Expected output:   ""
