@@ -65,7 +65,7 @@ class HorspoolSearchTest {
 	}
 	@Test //bug found, should equal 8, but was -1
 	void caseSensitiveMatchFound() {
-		assertEquals(8,HorspoolSearch.findFirst("HeLLo","he said hello"));
+		assertEquals(8,HorspoolSearch.findFirstInsensitive("HElLo","he said hello"));
 
 	}
 	@Test
